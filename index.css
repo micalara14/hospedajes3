@@ -1,0 +1,407 @@
+/* -------------------------Reseteo--------------------------------------- */
+* {
+	margin: 0px;
+	padding: 0px;
+	/* -webkit-box-sizing: border-box;
+	box-sizing: border-box; */
+	text-decoration: none;
+}
+.row {
+	--bs-gutter-x: 0;
+}
+.container-fluid {
+	padding: 0;
+}
+html {
+	overflow-x: hidden;
+}
+/* ---------------------------------------------------------------- */
+
+/* -------------------------Inicio--------------------------------------- */
+/* Div */
+.div-header {
+	/* Div */
+	width: 100vw;
+	height: 100vh;
+	/* Background */
+	background-image: url(./multimedia/aitue-3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* Position */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+/* Nav */
+/* Logo */
+.a-logo {
+	margin: 0px;
+}
+.logo-aitue {
+	width: 25%;
+	margin-left: 3rem;
+	border-radius: 50%;
+	padding: 0px;
+}
+/* Elementos */
+.navBar {
+	background: rgb(255, 255, 255);
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.5860614509475666) 0%, rgba(255, 255, 255, 1) 100%);
+	height: 15%;
+	padding: 0;
+}
+.navBar-links {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.navBar-links a {
+	color: #652913 !important;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: larger;
+	font-weight: bold;
+	text-decoration: none;
+}
+.navBar-links a:hover {
+	color: #c77826 !important;
+}
+
+/* Título */
+.titulo-aitue {
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15rem;
+	text-align: center;
+	text-decoration: underline overline #934a1c 10px;
+}
+
+/* ----------------------------------------------------------------- */
+
+/* ---------------------Servicios-------------------------------------------- */
+/* Div */
+.div-nuestros-servicios {
+	/* Tamaño */
+	width: 100vw;
+	height: 100vh;
+	/* Fondo */
+	background-image: url(./multimedia/fondo.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+/* Titulo */
+.div-nuestros-servicios h2 {
+	/* Posicion, font y color */
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: #934a1c;
+	/* Subrayado */
+	-webkit-text-decoration: #c77826 solid underline;
+	text-decoration: #c77826 solid underline;
+	-webkit-text-underline-position: under;
+	text-underline-position: under;
+}
+/* Iframes */
+.row-servicios {
+	height: 80%;
+	width: auto;
+}
+.row-servicios div {
+	/* Posicion */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	/* Tamaño y fuente */
+	font-size: 1.5rem;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.row-servicios div i {
+	color: #652913;
+}
+/* ----------------------------------------------------------------- */
+
+/* ---------------------Cabañas-------------------------------------------- */
+/* Div */
+.div-nuestras-cabañas {
+	/* Tamaño */
+	width: 100vw;
+	height: 100vh;
+}
+/* Título */
+.div-nuestras-cabañas h2 {
+	/* Posicion, font y color */
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 4rem;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: #934a1c;
+	/* Subrayado */
+	-webkit-text-decoration: #c77826 solid underline;
+	text-decoration: #c77826 solid underline;
+	-webkit-text-underline-position: under;
+	text-underline-position: under;
+}
+/* Boton */
+.btn-ver-mas-cabañas {
+	background-color: #c77826;
+}
+.btn-ver-mas-cabañas:hover {
+	background-color: #934a1c;
+}
+/* Cards */
+.div-tarjetas-cabañas {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2rem;
+}
+.div-tarjetas-cabañas h3 {
+	margin-top: 0.5rem;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #652913;
+}
+.div-tarjetas-cabañas p {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.div-tarjetas-cabañas img {
+	width: 100%;
+	border-radius: 5%;
+	border: solid 6px #934a1c;
+}
+.div-tarjetas-cabañas button {
+	font-family: 'Josefin Sans', sans-serif;
+}
+/* ----------------------------------------------------------------- */
+
+/* ---------------------Ubicación-------------------------------------------- */
+/* Div */
+.div-ubicacion {
+	/* Tamaño */
+	width: 100vw;
+	height: 100vh;
+	background-image: url(./multimedia/fondo.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+/* Título */
+.div-ubicacion h2 {
+	/* Posicion, font y color */
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 4rem;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: #934a1c;
+	/* Subrayado */
+	-webkit-text-decoration: #c77826 solid underline;
+	text-decoration: #c77826 solid underline;
+	-webkit-text-underline-position: under;
+	text-underline-position: under;
+}
+/* Maps */
+.iframe-maps {
+	padding-left: 3rem;
+	padding-bottom: 3rem;
+	border: solid 2px #934a1c;
+	width: 100%;
+}
+/* Texto ubicación */
+.div-ubicacion-p {
+	padding: 5rem;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: #652913;
+}
+/* ----------------------------------------------------------------- */
+
+/* ---------------------Contacto-------------------------------------------- */
+/* Título */
+.div-contacto h2 {
+	/* Posicion, font y color */
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: #934a1c;
+	/* Subrayado */
+	-webkit-text-decoration: #c77826 solid underline;
+	text-decoration: #c77826 solid underline;
+	-webkit-text-underline-position: under;
+	text-underline-position: under;
+}
+/* Texto */
+.texto-contacto {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: #934a1c;
+	padding-left: 3rem;
+}
+.texto-contacto h3 {
+	color: #652913;
+	font-weight: bold;
+	margin-top: 2rem;
+}
+.texto-contacto h3 a {
+	text-decoration: none;
+	color: #652913;
+}
+.texto-contacto h3 a:hover {
+	text-decoration: none;
+	color: #934a1c;
+}
+/* Hover */
+.iframe-redes {
+	text-decoration: none;
+	color: #652913;
+}
+.iframe-redes:hover {
+	text-decoration: none;
+	color: #934a1c;
+}
+/* Formulario */
+.div-formulario iframe {
+	width: 100%;
+}
+/* ----------------------------------------------------------------- */
+
+/* ---------------------------Footer-------------------------------------- */
+footer {
+	/* Estilo */
+	background-color: #652913;
+	color: #934a1c;
+	/* Posicion */
+	width: 100%;
+	height: auto;
+	/* Posicion de elementos */
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.row-footer div p {
+	/* justify-content: center; */
+	text-align: center;
+	padding: 0.5rem;
+}
+.firma a {
+	text-decoration: none;
+	color: #934a1c;
+}
+/* ----------------------------------------------------------------- */
+
+/* --------------------------Media--------------------------------- */
+@media (max-width: 1024px) {
+	/* -----------Inicio------------------------------ */
+	/* Navbar */
+	/* Boton */
+	.btn-hamburguesa {
+		background-color: #934a1c !important;
+		margin-right: 3rem;
+	}
+	/* ---------------------Servicios-------------------------------------------- */
+	.div-nuestros-servicios {
+		width: auto;
+		height: auto;
+	}
+	/* -----------Nuestras Cabañas------------------------------ */
+	/* Div */
+	.div-nuestras-cabañas {
+		width: auto;
+		height: auto;
+	}
+	/* Cards */
+	.div-tarjetas-cabañas h3 {
+		font-size: large;
+	}
+	.div-tarjetas-cabañas img {
+		width: 80%;
+	}
+	/* -----------Ubicación------------------------------ */
+	.div-ubicacion-p {
+		padding: 3rem;
+	}
+}
+
+@media (max-width: 992px) {
+	/* -----------Inicio------------------------------ */
+	.navBar-links {
+		/* background: linear-gradient(0deg, rgba(255, 255, 255, 0.5860614509475666) 0%, rgba(255, 255, 255, 1) 100%); */
+		background-color: white;
+	}
+	/* -----------Nuestras Cabañas------------------------------ */
+	.div-tarjetas-cabañas h3 {
+		font-size: medium;
+	}
+	.div-tarjetas-cabañas img {
+		width: 95%;
+	}
+}
+
+@media (max-width: 768px) {
+	/* -----------Inicio------------------------------ */
+	.titulo-aitue {
+		font-size: 6rem;
+	}
+	/* -----------Nuestras Cabañas------------------------------ */
+	.div-tarjetas-cabañas h3 {
+		font-size: large;
+	}
+	.div-tarjetas-cabañas img {
+		width: 50%;
+	}
+	/* -----------Ubicación------------------------------ */
+	.div-ubicacion {
+		width: auto;
+		height: auto;
+	}
+	.div-iframe {
+		padding: 3rem;
+	}
+	.div-iframe iframe {
+		padding: 0px;
+	}
+	.div-ubicacion h2 {
+		margin-bottom: 2rem;
+	}
+	.div-ubicacion-p p {
+		text-align: center;
+	}
+}
+
+@media (max-width: 480px) {
+	/* -----------Inicio------------------------------ */
+	.a-logo {
+		display: none;
+	}
+	.btn-hamburguesa {
+		margin-left: 3rem;
+	}
+	/* ---------------------Servicios-------------------------------------------- */
+	.div-nuestros-servicios {
+		width: auto;
+		height: auto;
+	}
+	/* -----------Nuestras Cabañas------------------------------ */
+	.div-tarjetas-cabañas img {
+		width: 80%;
+	}
+	.div-nuestras-cabañas h2 {
+		margin-bottom: 2rem;
+	}
+	/* ---------------------Contacto-------------------------------------------- */
+	.texto-contacto {
+		padding-left: 1rem;
+		text-align: center;
+	}
+}

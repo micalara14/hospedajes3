@@ -1,0 +1,146 @@
+/* -------------------------Reseteo--------------------------------------- */
+* {
+	margin: 0px;
+	padding: 0px;
+	/* -webkit-box-sizing: border-box;
+	box-sizing: border-box; */
+	text-decoration: none;
+}
+.row {
+	--bs-gutter-x: 0;
+}
+.container-fluid {
+	padding: 0;
+}
+html {
+	overflow-x: hidden;
+}
+body {
+	background-image: url(./multimedia/Diseño\ sin\ título\ \(1\).png);
+}
+
+/* -------------------------Inicio--------------------------------------- */
+* Nav */ /* Logo */ .a-logo {
+	margin: 0px;
+}
+.logo-aitue {
+	width: 25%;
+	margin-left: 3rem;
+	border-radius: 50%;
+	padding: 0px;
+}
+/* Elementos */
+.navBar {
+	background: rgb(255, 255, 255);
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.5860614509475666) 0%, rgba(255, 255, 255, 1) 100%);
+	height: 15%;
+	padding: 0;
+}
+.navBar-links {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.navBar-links a {
+	color: #652913 !important;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: larger;
+	font-weight: bold;
+	text-decoration: none;
+}
+.navBar-links a:hover {
+	color: #c77826 !important;
+}
+/* Título */
+.titulo-cabaña {
+	/* Posicion, font y color */
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: #934a1c;
+	/* Subrayado */
+	-webkit-text-decoration: #c77826 solid underline;
+	text-decoration: #c77826 solid underline;
+	-webkit-text-underline-position: under;
+	text-underline-position: under;
+}
+
+/* -------------------------Carrusel--------------------------------------- */
+.div-carrusel {
+	padding: 2rem;
+}
+
+/* -------------------------Info--------------------------------------- */
+.div-info-cabaña {
+	/* Estilo */
+	padding: 1.5rem;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #652913;
+	font-size: large;
+	font-weight: bold;
+	/* Posicion */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* ---------------------------Footer-------------------------------------- */
+footer {
+	/* Estilo */
+	background-color: #652913;
+	color: #934a1c;
+	/* Posicion */
+	width: 100%;
+	height: auto;
+	/* Posicion de elementos */
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.row-footer div p {
+	/* justify-content: center; */
+	text-align: center;
+	padding: 0.5rem;
+}
+.firma a {
+	text-decoration: none;
+	color: #934a1c;
+}
+/* ----------------------------------------------------------------- */
+
+/* --------------------------Media--------------------------------- */
+@media (max-width: 1024px) {
+	/* -----------Inicio------------------------------ */
+	/* Navbar */
+	/* Boton */
+	.btn-hamburguesa {
+		background-color: #934a1c !important;
+		margin-right: 3rem;
+	}
+}
+
+@media (max-width: 992px) {
+	/* -----------Inicio------------------------------ */
+	.navBar-links {
+		/* background: linear-gradient(0deg, rgba(255, 255, 255, 0.5860614509475666) 0%, rgba(255, 255, 255, 1) 100%); */
+		background-color: white;
+	}
+
+	.div-info-cabaña {
+		font-size: medium;
+		text-align: center;
+	}
+}
+
+@media (max-width: 480px) {
+	/* -----------Inicio------------------------------ */
+	.a-logo {
+		display: none;
+	}
+	.btn-hamburguesa {
+		margin: 1.5rem;
+	}
+}
